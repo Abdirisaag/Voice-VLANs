@@ -21,7 +21,7 @@ int f0/0.50
 encapsulation dot1q 50
 ip add 192.168.50.1 255.255.255.0
 exit
-
+copy running-config startup-config 
 Configure SW1
 =================
 en
@@ -111,3 +111,4 @@ ephone-dn 4
 number 2006
 ephone-dn 5
 number 2009
+copy running-config startup-config 
